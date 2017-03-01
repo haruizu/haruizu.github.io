@@ -151,9 +151,9 @@ body {
   right:100px;
 }
 
+
 .footer {
-	
-  height:320px;
+	height:320px;
   position:relative;
   border:5px solid white;
   border-radius: 10px;
@@ -238,9 +238,9 @@ body {
 }
 
 
-@media all and (max-width: 1024px){
+@media (max-width: 1024px ) {
 .header {
-  width: 40%;
+  width: 60%;
   height: 400px;
   position: relative;
  }
@@ -251,46 +251,62 @@ body {
 
 .header-right {
   position: absolute;
-  top:100px;
-  
-  
+  top:180px;
+  right:90px;
 }
 
 
 .header-right h1  {
-  font-size: 25px;
+  font-size: 50px;
 }
 
 .header-right h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
+
+.content {
+  height: 2500px;
+  width: 100%;
+  
+}
+
  .aside {
-  width:55%;
-  font-size:25px;
+  width:100%;
+  font-size:50px;
  } 
 
 .article {
-  width:55%;
+  width:100%;
 }
- 
+.article h1 {
 
+}
 
 .footer {
-  width: 55%;
-  height: 800px;
+  width: 100%;
+  height: 1000px;
   position: relative;
+}
+
+.footer-left h3 {
+  font-size: 60px;
+}
+
+.footer-left p {
+  font-size: 40px;
 }
 
 .footer-center {
   position: absolute;
-  left:500px;
-  top:30px;
+  left:300px;
+  top:300px;
+
  }
 
 .footer-right {
   position: absolute;
-  top:330px;
-  right:250px;
+  top:620px;
+  left:100px;
  }
 
 }
